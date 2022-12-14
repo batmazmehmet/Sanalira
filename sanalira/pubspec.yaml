@@ -1,0 +1,58 @@
+name: sanalira
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  intl_phone_number_input: ^0.7.0+2
+  provider: ^6.0.4
+  http: ^0.13.5
+  dotted_border: ^2.0.0+3
+  firebase_auth: ^4.2.0
+  firebase: ^9.0.3
+  firebase_core: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+ 
+  assets:
+    - assets/images/sanaliraImage.jpg
+    - assets/images/trk.jpg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: NunitoSans
+      fonts:
+        - asset: fonts/Nunito_Sans/NunitoSans-Bold.ttf
+        - asset: fonts/Nunito_Sans/NunitoSans-Regular.ttf
+        - asset: fonts/Nunito_Sans/NunitoSans-Light.ttf
+        - asset: fonts/Nunito_Sans/NunitoSans-SemiBold.ttf
+

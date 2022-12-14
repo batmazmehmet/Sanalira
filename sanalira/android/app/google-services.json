@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "890137920601",
+    "project_id": "sanalira-3cff0",
+    "storage_bucket": "sanalira-3cff0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890137920601:android:14fed19086a2d531481d48",
+        "android_client_info": {
+          "package_name": "com.example.sanalira"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890137920601-orqatkqql8fdi9euigi5r2mjs71auu5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxz2YGsUepF6N0O7g19yx61iHdQV0AydI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890137920601-orqatkqql8fdi9euigi5r2mjs71auu5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
