@@ -31,7 +31,6 @@ class _RegisterViewState extends State<RegisterView> {
   bool _epostaValidate = false;
   bool _telefonValidate = false;
   bool _sifreValidate = false;
-  bool _checkBoxValue = false;
   var validatePassword;
   @override
   Widget build(BuildContext context) {
@@ -378,7 +377,7 @@ class _RegisterViewState extends State<RegisterView> {
                                 context,
                                 MaterialPageRoute(
                                     builder: (context) => MainView()));
-                          } else if (!_checkBoxValue) {
+                          } else if (!provider.checkbox) {
                             Helper().showCustomSnackBar(
                                 context, "Sözleşme ve koşullarını kabul edin!");
                           }
